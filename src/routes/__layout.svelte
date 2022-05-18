@@ -1,4 +1,5 @@
 <script lang="ts">
+	import 'virtual:windi.css'
 	import Header from '$lib/header/Header.svelte';
 	import '../app.css';
 </script>

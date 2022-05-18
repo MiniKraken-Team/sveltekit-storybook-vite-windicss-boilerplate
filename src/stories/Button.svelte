@@ -1,6 +1,6 @@
-<script>
-  import './button.css';
-  import { createEventDispatcher } from 'svelte';
+<script lang="ts">
+  import { createEventDispatcher } from 'svelte'
+  import svgIcon from '$lib/svg/3d-rotate.svg?raw'
   /**
    * Is this the principal call to action on the page?
    */
@@ -39,4 +39,5 @@
   {style}
   on:click={onClick}>
   {label}
+  {@html svgIcon}
 </button>
