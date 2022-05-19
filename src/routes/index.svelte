@@ -3,7 +3,7 @@
 </script>
 
 <script lang="ts">
-	import svgIcon from '$lib/svg/3d-rotate.svg?raw'
+	//import svgIcon from '$lib/svg/3d-rotate.svg?raw';
 	import Counter from '$lib/Counter.svelte';
 </script>
 
@@ -15,7 +15,7 @@
 <section>
 	<h1>
 		<div class="welcome ">
-			{@html svgIcon}
+			<!--{@html svgIcon}-->
 		</div>
 
 		to your new<br />SvelteKit app
