@@ -13,7 +13,7 @@ const config = {
 		vite: {
 			plugins: [
 				WindiCSS(),
-			],
+			]
 		},
 		// Override http methods in the Todo forms
 		methodOverride: {
